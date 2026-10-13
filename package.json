@@ -6,9 +6,16 @@
   "license": "MIT",
   "type": "module",
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@playwright/test": "^1.64.0",
     "@types/chrome": "^0.0.287",
-    "typescript": "7.0.2",
-    "extension": "^4.1.33"
+    "eslint": "^10.12.0",
+    "extension": "^4.1.33",
+    "extrig": "^0.2.0",
+    "globals": "^17.13.0",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.71.2",
+    "vitest": "^5.0.4"
   },
   "scripts": {
     "dev": "extension dev",
@@ -17,8 +24,8 @@
     "preview": "extension preview",
     "build:chrome": "extension build --browser chrome",
     "build:firefox": "extension build --browser firefox",
-    "build:edge": "extension build --browser edge"
+    "build:edge": "extension build --browser edge",
+    "audit:prod": "npm audit --omit=dev"
   },
-  "dependencies": {},
   "packageManager": "npm@10.9.8"
 }

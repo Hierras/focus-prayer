@@ -1,4 +1,5 @@
 {
+  "manifest_version": 3,
   "$schema": "https://json.schemastore.org/chrome-manifest.json",
   "chromium:manifest_version": 3,
   "firefox:manifest_version": 2,
